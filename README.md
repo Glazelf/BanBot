@@ -1,2 +1,2 @@
 # BanBot
- Bans everyone in your server
+ it bans stuff
