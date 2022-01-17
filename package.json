@@ -29,13 +29,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Glazelf/NinigiBot.git"
+    "url": "git+https://github.com/Glazelf/BanBot.git"
   },
   "keywords": [],
   "author": "Glaze",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/Glazelf/NinigiBot/issues"
+    "url": "https://github.com/Glazelf/BanBot/issues"
   },
-  "homepage": "https://github.com/Glazelf/NinigiBot#readme"
+  "homepage": "https://github.com/Glazelf/BanBot#readme"
 }

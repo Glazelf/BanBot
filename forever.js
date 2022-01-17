@@ -6,7 +6,7 @@ let foreverConfig = {
 };
 
 let foreverOptions = [{
-    "uid": "Ninigi",
+    "uid": "Banbot",
 }];
 
 let child = forever.start('./bot.js', foreverOptions);
