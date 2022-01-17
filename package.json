@@ -1,7 +1,7 @@
 {
-  "name": "ninigibot",
+  "name": "banbot",
   "version": "1.0.0",
-  "description": "NinigiBot for Discord",
+  "description": "",
   "main": "forever.js",
   "dependencies": {
     "@mapbox/node-pre-gyp": "^1.0.7",

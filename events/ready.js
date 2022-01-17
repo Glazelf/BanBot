@@ -9,28 +9,6 @@ module.exports = async (client) => {
         // Set interactions
         if (!client.application?.owner) await client.application?.fetch();
 
-        // Daily rate limit of 200 interactions should only go up if they are fully deleted and readded, not on every boot.
-        // let GlobalCommands = ["pokemon", "role", "botinfo", "help", "roleinfo", "serverinfo", "userinfo", "ban", "kick", "mute", "slowmode"];
-        let commandsExclude = ["countdown", "sysbot", "rule", "clearinteractions", "dm", "eval", "item", "kill", "moneyadd", "reload", "restart"];
-
-        let NinigiUserID = "592760951103684618";
-
-        if (client.user.id == NinigiUserID) {
-            await client.commands.forEach(command => {
-                try {
-                    if (commandsExclude.includes(command.config.name)) return;
-                    client.application?.commands.create(command.config);
-                    // console.log(`Loaded interaction: ${command.config.name} ✔`);
-                    // Server exclusive interactions:
-                    // let guild = await client.guilds.fetch(client.config.botServerID);
-                    // if (guild) guild.commands.create(command.config);
-                } catch (e) {
-                    console.log(e);
-                };
-            });
-        };
-        console.log("Loaded interactions!");
-
         await client.guilds.fetch();
 
         // Set bot status

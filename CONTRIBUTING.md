@@ -12,7 +12,7 @@ Pull requests are the best way to propose changes to the codebase (we use [Githu
 2. Make sure your code is tested by running the code for yourself or through automated tested.
 3. Issue that pull request!
 
-## Report bugs using Github's [issues](https://github.com/Glazelf/NinigiBot/issues)
+## Report bugs using Github's [issues](https://github.com/Glazelf/BanBot/issues)
 We use GitHub issues to track public bugs. Report a bug by [opening a new issue](); it's that easy!
 
 ## Write bug reports with detail, background, and sample code

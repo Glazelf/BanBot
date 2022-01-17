@@ -42,7 +42,7 @@ ${messageContentCode}` : `An error occurred:\n${exceptionCode}`;
             } else {
                 let errorReturnText = `An error has occurred. 
 The error has already been logged but please also report this as an issue on Github: 
-<https://github.com/Glazelf/NinigiBot/issues>`;
+<https://github.com/Glazelf/BanBot/issues>`;
                 if (message && !message.deleted) message.reply(errorReturnText);
                 return devChannel.send({ content: baseMessage });
             };
